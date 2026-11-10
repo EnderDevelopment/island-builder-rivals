@@ -1,0 +1,13 @@
+name: IslandBuilders
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  islandstory:
+    description: Start or continue Julian and Brian's island building adventure.
+    usage: /islandstory [start|status|next|search|locations|talk <name>|reset]
+    aliases: [island]
+permissions:
+  islandstory.admin:
+    description: Allows resetting any player's story progress.
+    default: op
